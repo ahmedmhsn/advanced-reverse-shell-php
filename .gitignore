@@ -1,0 +1,37 @@
+# .gitignore for Advanced Reverse Shell PHP
+
+# Do NOT ignore source files. meow.php5 is tracked intentionally.
+
+# Local credentials and secrets
+*.env
+.env
+.env.local
+.env.*.local
+config.local.php
+*.secret
+*.key
+*.pem
+credentials*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+# Logs
+*.log
+logs/
+npm-debug.log*
+# PHP artifacts
+*.php.bak
+vendor/
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
